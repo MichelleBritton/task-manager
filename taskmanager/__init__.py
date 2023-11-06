@@ -2,7 +2,7 @@ import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 if os.path.exists("env.py"):
-    import env  # noqa
+    import env # noqa
 
 # Create an instance of the imported Flask() class and store in a variable
 app = Flask(__name__)

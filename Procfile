@@ -1,2 +1,1 @@
- * Serving Flask app 'taskmanager'
- * Debug mode: on
+web: python run.py
